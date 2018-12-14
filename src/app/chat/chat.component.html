@@ -1,0 +1,19 @@
+<img src={{image}} alt="">
+<h3>Welcome {{name}}</h3>
+<div class="main">
+  <div *ngFor="let item of items |  slice:j:k;let i = index;  ">
+    <div class="msg">{{item.msgs}}</div><br>
+    </div>
+  
+  <div class="bottom">
+  <input type="text" [(ngModel)]="msgs" />
+  <button (click)="msg()">SEND</button>
+   
+</div>
+</div>
+<br><br><br>
+ <div *ngFor= "let data of getMsgs">
+  {{data}}
+</div>
+<!-- {{getMsgs | json}} -->
+<hr>

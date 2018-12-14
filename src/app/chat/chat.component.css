@@ -1,0 +1,29 @@
+.main{
+    height:300px;
+    width:600px;
+    margin:auto;
+    border:5px solid green;
+    overflow:scroll;
+}
+.msg{
+    background-color:lightblue;
+    padding-left:10px;
+    height:25px;
+    font-size:18px;
+    border-bottom:1px solid grey;
+}
+.bottom{   
+    position:fixed;
+    top:620px;
+}
+.bottom input{
+    width:600px;
+    height:55px;
+    font-size:25px;
+    border:3px solid blue;
+}
+img{
+    width:75px;
+    height:75px;
+    border-radius:100px;
+}
